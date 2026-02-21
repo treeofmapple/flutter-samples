@@ -1,0 +1,22 @@
+[tools]
+gradle = "9"
+flutter = "3.19.0-stable"
+
+[env]
+file = ".env"
+
+[tasks.clean]
+description = "Clean Flutter Project"
+run = "flutter clean"
+
+[tasks.download]
+description = "Download Flutter Project Files"
+run = "flutter pub get"
+
+[tasks.update]
+description = "Update Flutter Project Files"
+run = "flutter pub upgrade"
+
+[tasks.run]
+description = "Run Flutter Project"
+run = "flutter run"
